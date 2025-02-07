@@ -1,0 +1,106 @@
+/* Default styling for a clean and modern look */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .button:hover {
+    background-color: #005fa3;
+    text-decoration: none;
+}
+
+.center-image {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .brand {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar .links {
+    display: flex;
+    gap: 5px;
+    margin-right: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack links vertically */
+        align-items: center;
+    }
+    .navbar a {
+        display: block;
+        padding: 10px;
+        width: 100%; /* Full width for touch accessibility */
+    }
+}
+
