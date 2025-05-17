@@ -16,6 +16,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: table;
+    clear: both;
 }
 
 h1, h2, h3 {
@@ -56,6 +58,11 @@ button:hover, .button:hover {
 
 .center-image {
     display: block;
+    margin: 10px auto;
+}
+
+.right-image {
+    float: left;
     margin: 10px auto;
 }
 
