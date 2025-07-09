@@ -119,6 +119,12 @@ button:hover, .button:hover {
 }
 
 
+.iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
 /* Mobile styles */
 @media screen and (max-width: 768px) {
     .navbar {
@@ -130,5 +136,8 @@ button:hover, .button:hover {
         padding: 10px;
         width: 100%; /* Full width for touch accessibility */
     }
+
+    
+
 }
 
