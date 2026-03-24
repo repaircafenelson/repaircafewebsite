@@ -124,6 +124,11 @@ button:hover, .button:hover {
     height: 300px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
